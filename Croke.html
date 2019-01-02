@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Discover Homepage</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div style="width:100%">
+  <div style="width:100%; margin-bottom: -5px" >
+      <img src="image/CrokeHead.jpg" width="100%">
+
+  </div>
+  <div style="background-color:#2AFC98;height: 650px; width:13%;float:left; margin-right: 2%">
+      <div><h3><b>Menu</b></h3></div>
+      <a href="Homepage1.html">Home</a><br />
+      <a href="Guides.html">Our Guides</a><br />
+      <a href="Contact.html">Contact</a><br />
+
+  </div>
+
+  <div style=";height: 360px; width:43%;float:left; margin-right: 2%; margin-top: 5px">
+      <p>
+        Since 1884 the site has been used primarily by the GAA to host Gaelic games, most notably the annual All-Ireland finals in football and hurling. Both the opening and closing ceremonies of the 2003 Special Olympics, as well as numerous music concerts by major international acts, have been held in the stadium. <br/>
+        Following a redevelopment programme started in the 1990s, Croke Park has a capacity of 82,300, making it the third largest stadium in Europe, and the largest not usually used for association football.
+      </p>
+
+  </div>
+
+  <div style=";height: 200px; width:40%;float:left; margin-top: 20px">
+    <img src="image/GAA.jpg" alt="GAA1" width="100%" />
+  </div>
+
+  <div style=";height: 200px; width:43%;float:left; margin-right: 2%">
+      <table style="border-style: solid;">
+          <tr>
+            <td>Category</td>
+            <td>Day</td>
+            <td>Start Time</td> 
+            <td>Duration</td> 
+            <td></td>
+          </tr>
+          <tr>
+            <td><img src="image\png\64 px\57.png"></td>
+            <td>Monday</td>
+            <td>14:00</td>
+            <td>90mins</td>  
+            <td><button onclick="book(1)">Book A Spot</button></a></td>
+          </tr>
+          </table>
+
+          <form id="bookform" style="display: none" action="Booking.php" method="get">
+            First name:<br>
+            <input type="text" name="firstname"><br>
+            Last name:<br>
+            <input type="text" name="lastname"><br>
+            Number Of People (Maximum 4):<br>
+            <input type="radio" name="numpeople" value="1" checked> 1
+            <input type="radio" name="numpeople" value="2"> 2
+            <input type="radio" name="numpeople" value="3"> 3 
+            <input type="radio" name="numpeople" value="4"> 4<br> 
+            <input type ="submit" value="Confirm" >
+          </form>
+  </div>
+
+  
+<div style="background-color:#51BBFE;clear:both">
+  <center>
+      <a href="Homepage1.html">Home</a>|
+      <a href="Guides.html">Our Guides</a>|
+      <a href="Contact.html">Contact</a>
+  </center>
+  </div>
+</div>
+</body>
+
+<script type='text/javascript'>
+function book(a)
+{
+  if(a==1){
+    document.getElementById("bookform").style.display="block";
+  }
+}
+</script>
+</html>

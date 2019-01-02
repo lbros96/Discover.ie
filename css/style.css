@@ -1,0 +1,91 @@
+h1{
+	font-size: 95px;
+	font-family: "Arial";
+}
+
+h2{
+	font-size: 75px;
+	font-family: "Arial";
+}
+
+
+.fav-list{
+	margin-left: -45px;
+}
+
+.fav-list li{
+	margin-bottom: 20px;
+}
+
+.fav-list li img{
+	width: 30px;
+}
+
+.fav-list li p{
+	margin-left: 30px;
+}
+
+body{
+	margin-left: 8%;
+	margin-right: 8%;
+	font-family: "Arial";
+	font-size: 15px;
+}
+
+.container{
+	width: 100%;
+}
+
+.irelandinfo{
+	float: left;
+	width: 25%;
+
+}
+
+.irelandimagemap{
+	float: "left";
+	width: 50%;
+}
+
+.irelandinfoimg{
+	float: "left";
+	width: 25%;
+
+
+}
+
+.timetable td{
+	padding: 10px;
+}
+
+.timetable img{
+	width: 35px;
+}
+
+.clearfix{
+	clear: both
+}
+
+.fade {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+   .fade:hover {
+      opacity: 0.5;
+      }
+
+.nav-fade li {
+   background: #fff;
+   padding: 3px 8px;
+   display: inline-block;
+   transition: background .25s ease-in-out;
+   -moz-transition: background .25s ease-in-out;
+   -webkit-transition: background .25s ease-in-out;
+   }
+
+   .nav-fade li:hover {
+      background: #ddd;
+      }
